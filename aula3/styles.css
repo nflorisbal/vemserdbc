@@ -1,0 +1,14 @@
+* { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p { 
+    color: gray;
+    font-size: 16px;
+}
