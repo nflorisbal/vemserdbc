@@ -69,6 +69,10 @@ h5 {
     color: #1D573A;
 }
 
+iframe {
+    margin-bottom: 30px;
+}
+
 form input, textarea, select {
     display: block;
     width: 40%;
@@ -80,6 +84,10 @@ form input, textarea, select {
     border: none;
 }
 
+input, select {
+    margin-bottom: 30px;
+}
+
 .button {
     background-color:#31435B;
     color: #f2f2f2;
@@ -89,9 +97,8 @@ form input, textarea, select {
     background-color: #0f1c2c;
 }
 
-
 .container {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -116,10 +123,8 @@ form input, textarea, select {
 
 .table-classes p {
     text-align: center;
-    font-style: ;
 }
 
 .table-classes img {
     margin: 0 50px;
 }
-
