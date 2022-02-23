@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 30px;
+}
+
+header a {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+/* Gallery */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.pagina-central {
+    display: flex;
+    margin-right: 30px;
+    max-width: 100%;
+}
+
+.pagina-lateral {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.pagina-lateral h4 {
+    margin-bottom: 20px;
+}
