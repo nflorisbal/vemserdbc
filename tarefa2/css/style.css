@@ -75,8 +75,19 @@ form input, textarea, select {
     box-sizing: border-box;
     margin-top: 20px;
     padding: 20px 10px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    border: none;
 }
 
+.button {
+    background-color:#31435B;
+    color: #f2f2f2;
+}
+
+.button:hover {
+    background-color: #0f1c2c;
+}
 
 
 .container {
