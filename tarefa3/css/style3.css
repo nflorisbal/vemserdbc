@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 30px;
+}
+
+header a {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+/* Gallery */
+
