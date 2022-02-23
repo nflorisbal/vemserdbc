@@ -1,0 +1,23 @@
+.container-flex {
+    display: flex;
+    justify-content: ;
+    align-items: ;
+    height: 100px;
+    background-color: rgb(241, 184, 163);
+    flex-direction: row-reverse;
+}
+
+.bloco1 {
+    width: 100px;
+    background-color: aqua;
+}
+
+.bloco2 {
+    width: 100px;
+    background-color: red;
+}
+
+.bloco3 {
+    width: 100px;
+    background-color: blueviolet;
+}
