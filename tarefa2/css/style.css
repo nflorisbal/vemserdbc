@@ -72,8 +72,12 @@ h5 {
 form input, textarea, select {
     display: block;
     width: 40%;
+    box-sizing: border-box;
     margin-top: 20px;
+    padding: 20px 10px;
 }
+
+
 
 .container {
     max-width: 70%;
