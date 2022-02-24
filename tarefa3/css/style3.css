@@ -23,3 +23,41 @@ nav a {
 
 /* Gallery */
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.container img {
+    max-width: 100%;
+    display: block;
+}
+
+.pagina-central {
+    display: flex;
+    margin-right: 30px;
+    max-width: 100%;
+}
+
+.pagina-lateral {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.pagina-central h3 {
+    padding: 10px;
+}
+
+.pagina-lateral h4 {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.subtitle {
+    color: white;
+    background-color: gray;
+}
