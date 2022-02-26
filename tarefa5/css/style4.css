@@ -39,12 +39,17 @@ img {
     width: 100%;
 }
 
+h4 {
+    font-size: 1.333vw;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: minmax(auto, 30%) minmax(auto, 30%) minmax(auto, 30%);
     gap: 4% 2%;
     margin-top: 3%;
     max-width: 80%;
+    max-height: 90%;
     justify-content: center;
 }
 
@@ -63,8 +68,14 @@ img {
 
 .flex-box>.flex-content {
     display: flex;
+    align-items: center;
+    margin-bottom: 5%;
 }
 
 .flex-box>.flex-content img {
     width: 50%;
+}
+
+.flex-box>.flex-content h4 {
+    padding-left: 5%;
 }
