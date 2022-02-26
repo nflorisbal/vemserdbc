@@ -8,13 +8,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 1680px;
+    margin: 0 auto;
 }
 
 /* header */
 
 header {
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     align-items: center;
 }
@@ -23,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     margin: 0 5%;
 }
 
@@ -48,8 +49,12 @@ header {
 
 .nav-header>.nav-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 40%;
+}
+
+.nav-header>.nav-buttons>button {
+    margin-left: 12px;
 }
 
 .button-style-full {
@@ -59,7 +64,7 @@ header {
     border: 0;
     font-size: 0.9375rem;
     font-weight: 500;
-    padding: 10px 14%;
+    padding: 10px 8%;
 }
 
 .button-style-empty {
@@ -70,12 +75,14 @@ header {
     border-radius: 6px;
     font-size: 0.9375rem;
     font-weight: 500;
-    padding: 10px 14%;
+    padding: 10px 8%;
 }
 
 
 /* responsive */
 
-@media (max-width: 800px) {
-
+@media (max-width: 850px) {
+    .nav-links {
+        display: none;
+    }
 }
