@@ -13,3 +13,7 @@ Formas de inclusão (inline, interno e externo), tags do CSS, estrutura de eleme
 ## Aula 4
 
 Flexbox e propriedades.
+
+## Aula 6
+
+Grid e propriedades.
