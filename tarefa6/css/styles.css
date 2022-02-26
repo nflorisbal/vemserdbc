@@ -27,20 +27,50 @@ header {
     margin: 0 5%;
 }
 
-.nav-header .nav-items {
+.nav-header>.nav-items {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.nav-header .nav-items .nav-links {
-    margin-left: 15%;
+.nav-header>.nav-items>.nav-links {
+    margin-left: 10%;
 }
 
-.nav-header .nav-buttons {
+.nav-header>.nav-items>.nav-links a {
+    text-decoration: none;
+    color:#18A0FB;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin-right: 20px;
+    font-family: Montserrat;
+}
+
+.nav-header>.nav-buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     width: 40%;
+}
+
+.button-style-full {
+    background: #18A0FB;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 10px 14%;
+}
+
+.button-style-empty {
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    color:#18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 10px 14%;
 }
 
 
