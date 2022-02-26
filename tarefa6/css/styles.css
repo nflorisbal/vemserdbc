@@ -3,11 +3,11 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    max-width: 1680px;
+body {   
+    /* max-width: 1680px; */
     margin: 0 auto;
 }
 
@@ -59,12 +59,12 @@ header {
 
 .button-style-full {
     background: #18A0FB;
-    color: white;
+    color: #FFFFFF;
     border-radius: 6px;
     border: 0;
     font-size: 0.9375rem;
     font-weight: 500;
-    padding: 10px 8%;
+    padding: 11px 2vw;
 }
 
 .button-style-empty {
@@ -75,7 +75,7 @@ header {
     border-radius: 6px;
     font-size: 0.9375rem;
     font-weight: 500;
-    padding: 10px 8%;
+    padding: 11px 2vw;
 }
 
 /* main */
@@ -86,10 +86,44 @@ container {
 
 .container-video {
     width: 100vw;
+    position: relative;
 }
 
 .container-video>video {
     width: 100vw;
+    opacity: 0.5;
+}
+
+.container-video>.video-overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    top: calc(50% - 101px);
+}
+
+.container-video>.video-overlay>.video-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 132px;
+    height: 132px;
+    background-color: #18A0FB;
+    border-radius: 100%;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+.container-video>.video-overlay>.video-play>i {
+    font-size: 4.25rem;
+}
+
+.container-video>.video-overlay>h1 {
+    font-weight: 400;
+    font-size: 3.0em;
+    margin-bottom: 2.5%;
 }
 
 
