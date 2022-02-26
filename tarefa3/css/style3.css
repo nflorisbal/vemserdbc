@@ -27,29 +27,32 @@ nav a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1200px;
+    /* max-width: 100%; */
     margin-top: 30px;
 }
 
 .container img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
 }
 
 .pagina-central {
     display: flex;
+    flex-direction: column;
     margin-right: 30px;
     max-width: 100%;
+}
+
+.pagina-central h3 {
+    padding: 10px;
 }
 
 .pagina-lateral {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
-}
 
-.pagina-central h3 {
-    padding: 10px;
+    max-width: 30%;
 }
 
 .pagina-lateral h4 {
