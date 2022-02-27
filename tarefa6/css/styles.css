@@ -14,10 +14,18 @@ body {
 /* header */
 
 header {
+    position: fixed;
+    /* top: 0; */
+    background-color: #FFFFFF;
+    z-index: 1;
     display: flex;
     width: 100vw;
     height: 60px;
     align-items: center;
+}
+
+h1 {
+    font-weight: 400;
 }
 
 .nav-header {
@@ -84,6 +92,9 @@ container {
     width: 100vw;
 }
 
+
+/* video section */
+
 .container-video {
     width: 100vw;
     position: relative;
@@ -121,10 +132,26 @@ container {
 }
 
 .container-video>.video-overlay>h1 {
-    font-weight: 400;
     font-size: 3.5vw;
     margin-bottom: 2.5%;
 }
+
+/* features section */
+
+.container-features {
+    padding: 7% 5%;
+}
+
+.container-features>.features-title>h1 {
+    font-size: 2.5vw;
+}
+
+.container-features>.features-grid {
+    display: grid;
+            grid-template-columns: auto auto;
+}
+
+
 
 /* responsive */
 
