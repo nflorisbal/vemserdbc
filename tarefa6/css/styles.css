@@ -25,6 +25,7 @@ header {
 
 h1 {
     font-weight: 400;
+    font-size: 2.5vw;
 }
 
 h4 {
@@ -141,18 +142,17 @@ container {
 }
 
 .video-overlay>h1 {
-    font-size: 3.5vw;
     margin-bottom: 3%;
 }
 
 /* features section */
 
 .container-features {
-    padding: 10% 5vw;
+    padding: 5% 5vw;
 }
 
 .features-title>h1 {
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
     margin-bottom: 5%;
 }
 
@@ -160,7 +160,11 @@ container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* padding-right: 5vw; */
-    gap: 20% 10%;
+    column-gap: 10%;
+}
+
+.features-grid-cell {
+    padding-bottom: 9%;
 }
 
 .grid-cell-item {
@@ -170,7 +174,7 @@ container {
 /* prices section */
 
 .container-pricing-one, .container-pricing-two{
-    padding: 5% 5vw;
+    padding: 6% 5vw;
 }
 
 .container-pricing-two {
@@ -199,6 +203,17 @@ container {
 .pricing-grid>#pricing-two-img {
     grid-column: 2;
     grid-row: 1;
+}
+
+/* community section */
+
+.community-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.community-grid-cell img {
+    width: 20%;
 }
 
 /* responsive */
