@@ -168,8 +168,12 @@ container {
 
 /* princing section */
 
-.container-pricing {
-    padding: 10% 5vw;
+.container-pricing-one, .container-pricing-two{
+    padding: 5% 5vw;
+}
+
+.container-pricing-two {
+    background-color: #F5F5F5;
 }
 
 .pricing-grid {
@@ -184,6 +188,11 @@ container {
 
 .grid-cell-item>img {
     width: 100%;
+}
+
+.pricing-grid>#pricing-two-img {
+    grid-column: 2;
+    grid-row: 1;
 }
 
 
