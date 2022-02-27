@@ -277,8 +277,26 @@ container {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr 1fr;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 40px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left a, .footer-right a {
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
 }
 
 .social-icon {
