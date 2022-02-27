@@ -36,17 +36,17 @@ h1 {
     margin: 0 5%;
 }
 
-.nav-header>.nav-items {
+.nav-items {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.nav-header>.nav-items>.nav-links {
+.nav-links {
     margin-left: 10%;
 }
 
-.nav-header>.nav-items>.nav-links a {
+.nav-links a {
     text-decoration: none;
     color:#18A0FB;
     font-size: 0.9375rem;
@@ -55,13 +55,13 @@ h1 {
     font-family: Montserrat;
 }
 
-.nav-header>.nav-buttons {
+.nav-buttons {
     display: flex;
     justify-content: flex-end;
     width: 40%;
 }
 
-.nav-header>.nav-buttons>button {
+.nav-buttons>button {
     margin-left: 12px;
 }
 
@@ -105,7 +105,7 @@ container {
     opacity: 0.5;
 }
 
-.container-video>.video-overlay {
+.video-overlay {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -115,7 +115,7 @@ container {
     top: calc(50% - 101px);
 }
 
-.container-video>.video-overlay>.video-play {
+.video-play {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,11 +127,11 @@ container {
     margin-bottom: 5%;
 }
 
-.container-video>.video-overlay>.video-play>i {
+.video-play>i {
     font-size: 4.25rem;
 }
 
-.container-video>.video-overlay>h1 {
+.video-overlay>h1 {
     font-size: 3.5vw;
     margin-bottom: 2.5%;
 }
@@ -142,18 +142,18 @@ container {
     padding: 7% 5%;
 }
 
-.container-features>.features-title>h1 {
+.features-title>h1 {
     font-size: 2.5vw;
     margin-bottom: 5%;
 }
 
-.container-features>.features-grid {
+.features-grid {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20% 10%;
 }
 
-.container-features>.features-grid>.features-grid-cell>.grid-cell-item {
+.grid-cell-item {
     margin-bottom: 3%;
 }
 
