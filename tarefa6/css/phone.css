@@ -237,27 +237,38 @@ header {
 
 .footer-grid {
     display: grid;
-    grid-template-rows: 10px 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+                        "logo logo"
+                        "left-menu right-menu";
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     padding-bottom: 3vh;
 }
 
+.footer-logo {
+    grid-area: logo;
+    
+}
+
 .footer-left {
-    display: none;
-    /* justify-content: space-between; */
+    grid-area: left-menu;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-right {
-    display: none;
-    /* justify-content: space-between; */
+    grid-area: right-menu;
+    display: flex;
+    flex-direction: column;
 }
 
-/* .footer-left a, .footer-right a {
+.footer-left a, .footer-right a {
     font-weight: 700;
-    line-height: 24px;
+    line-height: 40px;
     text-decoration: none;
     color: #000;
-} */
+}
 
 .social-icon {
     border-radius: 100%;
