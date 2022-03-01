@@ -75,6 +75,10 @@ header {
     margin-right: 1.2vw;
 }
 
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 .nav-buttons {
     display: flex;
     justify-content: flex-end;
@@ -93,6 +97,14 @@ header {
     font-size: 0.9375rem;
     font-weight: 500;
     padding: 1vh 2vw;
+}
+
+.button-style-full:hover {
+    background: #1a7cbd;
+}
+
+.button-style-empty:hover {
+    background: #f0f0f0;
 }
 
 .button-style-empty {
@@ -298,6 +310,10 @@ container {
     line-height: 24px;
     text-decoration: none;
     color: #000;
+}
+
+.footer-left a:hover, .footer-right a:hover {
+    text-decoration: overline;
 }
 
 .social-icon {
