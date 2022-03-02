@@ -115,20 +115,11 @@ header {
     height: 100%;
     width: 100%;
     text-align: center;
-    /* top: calc(50% - 101px); */
     padding: 0 5vw;
 }
 
 .video-play {
     display: none;
-    /* align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    background-color: #18A0FB;
-    border-radius: 100%;
-    color: #FFFFFF;
-    margin-bottom: 5%; */
 }
 
 .video-play>i {
