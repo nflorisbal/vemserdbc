@@ -10,10 +10,14 @@ Estrutura básica do HTML, tags fundamentais e elementos semânticos.
 
 Formas de inclusão (inline, interno e externo), tags do CSS, estrutura de elementos.
 
-## Aula 4
+## Aula 4 e 5
 
 Flexbox e propriedades.
 
 ## Aula 6
 
 Grid e propriedades.
+
+## Aula 7
+
+Iniciando com o framework Bootstrap. Layouts, componentes etc.
