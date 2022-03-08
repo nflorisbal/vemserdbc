@@ -21,3 +21,7 @@ Grid e propriedades.
 ## Aula 7
 
 Iniciando com o framework Bootstrap. Layouts, componentes etc.
+
+## Aula 8
+
+Pseudo elementos do CSS.
